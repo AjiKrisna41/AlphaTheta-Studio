@@ -17,6 +17,10 @@ header .std{
 nav{
     margin-top:10px;
     padding-bottom: 20px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px;
 }
 
 
@@ -33,6 +37,7 @@ nav a:hover{
 #Tentang{
     display: flex;
     border-radius: 20px;
+    max-width: 90%;
     width: 1200px;
     margin: auto;
     align-items: center;
@@ -66,16 +71,15 @@ nav a:hover{
 .layanan{
     display:flex;
     justify-content:center;
-    gap: 10px;
+    gap: 30px;
     padding: 50px;
 }
 
 .card{
     background:#1f1f1f;
-    padding:30px;
+    padding:25px;
     width:300px;
     text-align:center;
-    flex-wrap: wrap;
     border-radius:20px;
     box-shadow:0 4px 10px rgba(244, 243, 243, 0.997);
 }
@@ -90,7 +94,8 @@ nav a:hover{
     background:#1f1f1f;
     text-align: center;
     border-radius: 20px;
-    width: 1200px;
+    max-width:1200px;
+    width: 90%;
     margin: auto;
     box-shadow:0 6px 15px rgba(244, 243, 243, 0.997);
 }
@@ -123,7 +128,6 @@ header .std{
     margin-top:20px;
 }
 
-/* layanan jadi 1 kolom */
 .layanan{
     flex-direction:column;
     align-items:center;
