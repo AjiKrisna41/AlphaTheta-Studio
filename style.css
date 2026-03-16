@@ -83,6 +83,11 @@ nav a:hover{
     box-shadow:0 4px 10px rgba(244, 243, 243, 0.997);
 }
 
+.card:hover{
+    transform:translateY(-8px);
+    transition:0.3s;
+}
+
 .card img{
     width:100%;
     border-radius:10px;
