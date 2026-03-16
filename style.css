@@ -122,6 +122,29 @@ footer{
     text-align:center;
 }
 
+.text{
+    width:100%;
+}
+
+.image{
+    width:100%;
+    margin-top:20px;
+}
+
+/* layanan jadi 1 kolom */
+.layanan{
+    flex-direction:column;
+    align-items:center;
+}
+
+.card{
+    width:90%;
+}
+
+nav{
+    justify-content:center;
+}
+
 .hero h2{
     font-size:26px;
 }
