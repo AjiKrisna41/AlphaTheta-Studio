@@ -46,7 +46,7 @@ nav a:hover{
     border-radius:8px;
 }
 
-.container{
+#Tentang{
     display: flex;
     border-radius: 20px;
     width: 1100px;
@@ -117,7 +117,7 @@ footer{
 
 @media (max-width:768px){
 
-.container{
+#Tentang{
     flex-direction:column;
     text-align:center;
     padding:30px;
