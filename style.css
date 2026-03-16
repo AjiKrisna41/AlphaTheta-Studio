@@ -1,148 +1,135 @@
 body{
-    background-color: #111111;
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
+    background:#111111;
+    margin:0;
+    font-family:Times New Roman, Times, serif;
+    color:white;
 }
 
 header{
-    text-align: center;
-    padding: 30px;
-}
-
-header .std{
-    font-size: 30px;
+    text-align:center;
+    padding:30px;
 }
 
 nav{
-    margin-top:10px;
-    padding-bottom: 20px;
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:10px;
+    text-align:center;
+    margin-bottom:20px;
 }
 
-
 nav a{
-    color: white;
-    text-decoration: none;
-    margin: 10px;
+    color:white;
+    text-decoration:none;
+    margin:10px;
 }
 
 nav a:hover{
-    color: #ff4da6;
+    color:cornflowerblue;
 }
 
-#Tentang{
-    display: flex;
-    border-radius: 20px;
-    max-width: 1200px;
-    margin: auto;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
-    background-color: #1f1f1f;
-    color: white;
-    box-shadow:0 4px 10px rgba(244, 243, 243, 0.997);
-    
+/* HERO */
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:#1f1f1f;
+}
+
+.hero h2{
+    font-size:35px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background:cornflowerblue;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    max-width:1100px;
+    margin:auto;
+    padding:50px 20px;
+    gap:40px;
 }
 
 .text{
-    width: 50%;
+    flex:1;
 }
 
 .image{
-    width: 50%;
-    text-align: center;
+    flex:1;
+    text-align:center;
 }
 
 .image img{
-    max-width: 400px;
-    height: auto;
+    max-width:300px;
 }
 
 .judul{
-    text-align: center;
-    margin-top: 40px;
+    text-align:center;
+    margin-top:40px;
 }
 
 .layanan{
     display:flex;
     justify-content:center;
-    gap: 30px;
-    padding: 50px;
+    gap:30px;
+    flex-wrap:wrap;
+    padding:40px;
 }
 
 .card{
     background:#1f1f1f;
     padding:25px;
-    width:300px;
+    width:280px;
+    border-radius:15px;
     text-align:center;
-    border-radius:20px;
-    box-shadow:0 4px 10px rgba(244, 243, 243, 0.997);
+    box-shadow:0 4px 10px rgba(255,255,255,0.2);
 }
 
-.card:hover{
-    transform:translateY(-8px);
-    transition:0.3s;
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:15px;
+    padding:40px;
+    max-width:1100px;
+    margin:auto;
 }
 
-.card img{
+.gallery img{
     width:100%;
     border-radius:10px;
 }
 
-.cp{
-    padding:40px;
+/* KONTAK */
+.kontak{
     background:#1f1f1f;
-    text-align: center;
-    border-radius: 20px;
-    max-width:1200px;
-    width: 90%;
-    margin: auto;
-    box-shadow:0 6px 15px rgba(244, 243, 243, 0.997);
+    text-align:center;
+    padding:40px;
+    margin:40px auto;
+    max-width:900px;
+    border-radius:20px;
 }
 
 footer{
-    background:black;
-    color:white;
     text-align:center;
     padding:15px;
+    background:black;
 }
 
 @media (max-width:768px){
 
-header .std{
-    font-size:22px;
-}
-
-#Tentang{
+.container{
     flex-direction:column;
     text-align:center;
-    padding:30px;
 }
 
-.text{
-    width:100%;
-}
-
-.image{
-    width:100%;
-    margin-top:20px;
-}
-
-.layanan{
-    flex-direction:column;
-    align-items:center;
-}
-
-.card{
-    width:90%;
-}
-
-nav{
-    justify-content:center;
+.hero h2{
+    font-size:26px;
 }
 
 }
