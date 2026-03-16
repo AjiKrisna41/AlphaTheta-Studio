@@ -49,11 +49,13 @@ nav a:hover{
 #Tentang{
     display: flex;
     border-radius: 20px;
-    width: 1100px;
+    max-width: 1100px;
     margin: 100px auto;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
+    padding: 50px 20px;
+    flex-wrap:wrap;
+    gap:60px;
     background-color: #1f1f1f;
     box-shadow:0 4px 10px white;
     
@@ -129,6 +131,10 @@ footer{
 .image{
     width:100%;
     margin-top:20px;
+}
+
+.image .img{
+    max-width:200px
 }
 
 /* layanan jadi 1 kolom */
