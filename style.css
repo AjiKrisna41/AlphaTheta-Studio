@@ -123,6 +123,7 @@ footer{
 #Tentang{
     flex-direction:column;
     text-align:center;
+    max-width: 50%;
 }
 
 .text{
