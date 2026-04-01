@@ -138,6 +138,7 @@ footer{
     display:flex;
     margin-top:20px;
     justify-conten:center;
+    align-items:center;
 }
 
 .image img{
