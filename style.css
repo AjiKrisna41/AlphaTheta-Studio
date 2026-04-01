@@ -136,13 +136,15 @@ footer{
 .image{
     width:100%;
     display:flex;
-    margin-top:20px;
     justify-conten:center;
     align-items:center;
+    margin-top:30px;
 }
 
 .image img{
-    max-width:200px
+    max-width:200px;
+    display:block;
+    margin:auto;
 }
 
 /* layanan jadi 1 kolom */
