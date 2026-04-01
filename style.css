@@ -128,10 +128,12 @@ footer{
 
 .text{
     max-width:600px;
+    text-align:center;
 }
 
 .image{
     width:100%;
+    align-items:center;
     margin-right:40px;
     margin-top:20px;
 }
